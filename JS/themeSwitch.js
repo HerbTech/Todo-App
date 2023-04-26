@@ -8,9 +8,9 @@ const svgMode = color => {
 };
 
 const toggleLightandDarkMode = isDark => {
-  body.style.background = isDark ? 'light' : 'dark';
+  body.style.background = isDark ? 'sun' : 'moon';
 
-  isDark ? svgMode('dark') : svgMode('light');
+  isDark ? svgMode('moon') : svgMode('sun');
 };
 
 const switchTheme = e => {
