@@ -221,14 +221,14 @@ body {
     width: 100%;
     padding: 2rem 0.8rem;
     margin-top: 2rem;
-  
+    
   }
   
   .buttons button {
     margin-right: 2rem;
     font-weight: 700;
     font-size: 1.4rem;  
-  
+    
   }
   
   /* ========================= Buttons ======================== */
@@ -256,17 +256,9 @@ body {
     background: var(--input-and-card);
     padding: 0.5rem;
     margin-left: 0.5rem;
-  
+    
   }
   
-  .addNewBtn span:hover {
-    border: 1px solid var(--checkbox-border);
-  
-  }
-  
-  .plusSign {
-    font-size: 1.99rem;
-  }
   
   .active {
     color: var(--Bright-Blue);
@@ -455,9 +447,6 @@ body {
        position: absolute;
      }
    
-     .plusSign {
-       font-size: 2.1rem;
-     }
    
      .drag_text {
        margin-bottom: 4rem;
