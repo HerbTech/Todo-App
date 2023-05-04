@@ -1,3 +1,4 @@
+
 const listContainer = document.querySelector('.tasks'); // ul
 const newTodoForm = document.querySelector('.addTodo'); // form
 const newTodoInput = document.querySelector('.addNew'); // input
@@ -23,7 +24,7 @@ let todos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST)) || [
   {
     id: '1',
     name: 'Complete online JavaScript course',
-    completed: false,
+    completed: false,   
   },
   {
     id: '2',

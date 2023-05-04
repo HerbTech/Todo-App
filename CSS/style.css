@@ -334,6 +334,7 @@ body {
   
   [type='checkbox']:checked + label {
     text-decoration: line-through;
+    color: #4D5067;
   }
   
   .task label {
@@ -349,12 +350,13 @@ body {
   
   .task {
     color: var(--text-color);
-  
+
   }
   
   .task .counter {
     font-size: 1.4rem;
     color: var(--Dark-Grayish-Blue);
+
    
    }
    
